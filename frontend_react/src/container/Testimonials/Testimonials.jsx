@@ -1,5 +1,5 @@
 import React from 'react'
-import './testimonials.scss'
+import './Testimonials.scss'
 function Testimonials() {
   return (
     <div>Testimonials</div>
