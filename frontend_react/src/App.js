@@ -9,9 +9,9 @@ function App() {
       <Navbar />
       <Header />
       <About />
-      {/* <Work />
+      <Work />
       <Skills />
-      <Testimonials />
+      {/* <Testimonials />
       <Footer /> */}
     </h1>
   )
