@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freeCodeCamp Survey Form</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="title">
+            freeCodeCamp Survey Form
+        </h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <div id="container">
+        <form id="survey-form" action="">
+            <div class="label">
+                <label id="name-label" for="name">Name</label>
+                <input class="form-control" type="text" id="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="label">
+                <label id="email-label" for="email">Email</label>
+                <input class="form-control" type="text" id="email" placeholder="Enter your email" required>
+            </div>
+
+
+            <div class="label">
+                <label id="number-label" for="number">Number</label>
+                <input class="form-control" type="number" id="number" min="9" max="90" placeholder="Age" required>
+
+            </div>
+
+
+            <div class="label">
+                <p >Which option best describes your current role?</p>
+                <select class="form-control" name="role" id="drop-down" required>
+                    <option disabled selected>Select current role</option>
+
+                    <option value="Student">Student</option>
+                    <option value="Full Time Job">Full Time Job</option>
+                    <option value="Full Time Learner">Full Time Learner</option>
+                    <option value="Perefer not to say">Perefer not to say</option>
+                    <option value="Others">Others</option>
+
+                </select>
+            </div>
+
+            <div  class="label">
+                <p>Would you recommend freeCodeCamp to a friend?
+                    Definitely</p>
+
+                <label class="radio-button" for="Definitely"><input type="radio" name="freeCodeCamp" value="Definitely"
+                        checked>Definitely</label>
+                <label class="radio-button" for="Maybe"> <input type="radio" name="freeCodeCamp"
+                        value="Maybe">Maybe</label>
+                <label class="radio-button" for="Not Sure"><input type="radio" name="freeCodeCamp" value="Not Sure">Not
+                    Sure</label>
+            </div>
+            
+            <div class="label">
+                <p >What is your favorite feature of freeCodeCamp?</p>
+                <select class="form-control" name="role" id="drop-down" required>
+                    <option disabled selected>Select an option</option>
+                    <option value="Challenges">Challenges</option>
+                    <option value="Project">Project</option>
+                    <option value="Community">Community</option>
+                    <option value="Open Source">Open Source</option>
+                </select>
+            </div>
+
+         
+            <div class="label">
+                <p>What would you like to see improved? (Check all that apply)</p>
+
+                <label class="radio-button" for="Front-end Projects"><input type="checkbox" name="Improve"
+                        value="Front-end Projects" checked>Front-end Projects</label>
+                <label class="radio-button" for="Back-end Projects"> <input type="checkbox" name="Improve"
+                        value="Back-end Projects">Back-end Projects</label>
+                <label class="radio-button" for="Data Visualization"><input type="checkbox" name="Improve"
+                        value="Data Visualization">Data Visualization</label>
+                <label class="radio-button" for="Challenges"><input type="checkbox" name="Improve"
+                        value="Challenges">Challenges</label>
+                <label class="radio-button" for="Open Source Community"> <input type="checkbox" name="Improve"
+                        value="Open Source Community">Open Source Community</label>
+                <label class="radio-button" for="Gitter help rooms"><input type="checkbox" name="Improve"
+                        value="Gitter help rooms">Gitter help rooms</label>
+                <label class="radio-button" for="Videos"> <input type="checkbox" name="Improve"
+                        value="Videos">Videos</label>
+                <label class="radio-button" for="City Meetups"><input type="checkbox" name="Improve"
+                        value="City Meetups">City Meetups</label>
+                <label class="radio-button" for="Wiki"><input type="checkbox" name="Improve" value="Wiki">Wiki</label>
+                <label class="radio-button" for="Forum"> <input type="checkbox" name="Improve"
+                        value="Forum">Forum</label>
+                <label class="radio-button" for="Additional Courses"><input type="checkbox" name="Improve"
+                        value="Additional Courses">Additional Courses</label>
+            </div>
+            <div class="label">
+                
+                <p>Any comments or suggestions?</p>
+                <textarea name="comment" id="textarea"  spellcheck="true" placeholder="Enter Your Comment Here"></textarea>
+            </div>
+            <br>
+            <input type="submit" id="submit">
+
+
+        </form>
+    </div>
+</body>
+
+</html>
