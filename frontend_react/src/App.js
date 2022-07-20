@@ -1,19 +1,18 @@
-import React from 'react';
-import {About, Footer, Header, Skills, Testimonials, Work} from './container';
-import {Navbar} from './components' ;
+import React from 'react'
+import { About, Footer, Header, Skills, Testimonials, Work } from './container'
+import { Navbar } from './components'
 import './App.scss'
 
 function App() {
   return (
-    <h1 className='app'>
+    <div className='app'>
       <Navbar />
       <Header />
       <About />
       <Work />
       <Skills />
-    
-      <Footer /> 
-    </h1>
+      <Footer />
+    </div>
   )
 }
 
