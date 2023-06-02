@@ -35,8 +35,8 @@ import bolt from '../assets/bolt.png'
 import nb from '../assets/nb.png'
 import skype from '../assets/skype.png'
 import spotify from '../assets/spotify.png'
-import james from '../assets/james.png'
-
+import jasem from '../assets/jasem.png'
+import jasem2 from '../assets/jasem2.png'
 export default {
   email,
   mobile,
@@ -71,6 +71,6 @@ export default {
   nb,
   skype,
   spotify,
-  james,
-  
+  jasem,
+  jasem2,
 }
